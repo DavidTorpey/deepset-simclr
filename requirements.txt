@@ -1,0 +1,8 @@
+pyyaml
+dacite
+numpy
+torch
+torchvision
+lightly
+pillow
+wandb
