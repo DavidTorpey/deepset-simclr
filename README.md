@@ -39,7 +39,7 @@ This is used when sampling in order to sort the slices in the correct order.
 A configuration file is provided when training the model. An example of such a
 configuration file can be found at `configs/example.yaml`. Change the `data.dataset`
 configuration property to the name of your dataset that you added to the
-`src/data/data.py` from above.
+`src/data/data.py` file from above.
 
 Further, if you enable `general.log_to_wandb`, ensure you specify the correct
 project name when wandb in initialised in the `src/trainer.py` file.
